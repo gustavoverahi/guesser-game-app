@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Source+Code+Pro&display=swap");
+* {
+  margin: 0;
+  padding: 0 0;
+  box-sizing: border-box;
+}
+
+.main-app {
+  margin: 30px auto;
+  padding: 15px;
+}
+
+.title-app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1em;
+  font-family: "Barlow Condensed", sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+}
+
+.subtitle-app {
+  margin: 15px 0;
+  font-size: 0.8em;
+  font-weight: lighter;
+  font-family: "Source Code Pro", monospace;
+}
+
+input[class^="input"] {
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid hsl(0, 0%, 85%);
+  font-family: "Source Code Pro", monospace;
+  outline: none;
+}
+
+.input-submit {
+  cursor: pointer;
+  color: white;
+  background: hsl(0, 0%, 25%);
+  transition-duration: 700ms;
+}
+
+.input-submit:hover {
+  background: hsl(0, 0%, 40%);
+}
+
+/* MEDIA QUERIES */
+
+@media (min-width: 320px) {
+  .main-app {
+    width: 95%;
+    height: 50vh;
+  }
+}
+
+@media (min-width: 1024px) {
+  .main-app {
+    width: 30%;
+    height: 30vh;
+  }
+}

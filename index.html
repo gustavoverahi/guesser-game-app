@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Number Guesser</title>
+  </head>
+  <body>
+    <div class="main-app">
+      <header class="title-app">
+        <h1>NUMBER GUESSER</h1>
+      </header>
+
+      <main class="container">
+        <h2 class="subtitle-app">
+          Guess a number between <span class="min-num"></span> and
+          <span class="max-num"></span>
+        </h2>
+        <div class="form">
+          <input
+            class="input-number"
+            type="number"
+            id="input-number"
+            placeholder="Enter your guess..."
+          />
+          <input
+            class="input-submit"
+            type="submit"
+            id="input-submit"
+            value="Submit"
+          />
+        </div>
+        <p
+          class="message"
+          style="font-family: 'Barlow Condensed', sans-serif"
+        ></p>
+      </main>
+    </div>
+
+    <script src="./js/main.js"></script>
+  </body>
+</html>
